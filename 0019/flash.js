@@ -3,9 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"0019_atlas_1", frames: [[0,0,650,450],[0,452,650,450],[0,904,650,450],[0,1356,650,450],[652,0,650,450],[652,452,650,450],[652,904,650,450],[661,1384,5,11],[652,1384,7,21],[674,1356,9,29],[652,1356,20,26]]},
-		{name:"0019_atlas_2", frames: [[0,0,650,450],[652,0,650,450],[1304,0,650,450],[0,452,650,450],[0,904,650,450],[0,1356,650,450],[652,452,650,450],[1304,452,650,450],[652,904,650,450],[1304,904,650,450],[652,1356,650,450],[1304,1356,650,450]]},
-		{name:"0019_atlas_3", frames: [[0,0,650,450],[652,0,650,450],[1304,0,650,450],[0,452,650,450],[0,904,650,450],[0,1356,650,450],[652,452,650,450],[1304,452,650,450],[652,904,650,450],[1304,904,650,450],[652,1356,650,450],[1304,1356,650,450]]}
+		{name:"0019_atlas_1", frames: [[0,0,650,450],[0,452,650,450],[0,904,650,450],[0,1356,650,450],[0,1808,650,450],[0,2260,650,450],[0,2712,650,450],[0,3164,650,450],[0,3616,650,450],[652,0,650,450],[652,452,650,450],[652,904,650,450],[652,1356,650,450],[652,1808,650,450],[652,2260,650,450],[652,2712,650,450],[652,3164,650,450],[652,3616,650,450],[1304,0,650,450],[1304,452,650,450],[1304,904,650,450],[1304,1356,650,450],[1304,1808,650,450],[1304,2260,650,450],[1304,2712,650,450],[1304,3164,650,450],[1304,3616,650,450],[1956,0,650,450],[1956,452,650,450],[1956,904,650,450],[1956,1356,650,450],[1956,1890,5,11],[1956,1867,7,21],[1956,1836,9,29],[1956,1808,20,26]]}
 ];
 
 
@@ -144,246 +142,246 @@ lib.ssMetadata = [
 
 
 (lib._0019_0 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_1 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_10 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_11 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_12 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_13 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_14 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_15 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_16 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_17 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_18 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_2 = function() {
-	this.initialize(ss["0019_atlas_3"]);
+	this.initialize(ss["0019_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_20 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_21 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_25 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_26 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_27 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(4);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_28 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_3 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_30 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(7);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_31 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(8);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_32 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(9);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_33 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(10);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_34 = function() {
-	this.initialize(ss["0019_atlas_2"]);
-	this.gotoAndStop(11);
+	this.initialize(ss["0019_atlas_1"]);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_4 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_5 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_6 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_7 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_8 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_9 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0019_wait = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Layer1 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Layer2 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Layer3 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Layer6 = function() {
 	this.initialize(ss["0019_atlas_1"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -1051,8 +1049,6 @@ lib.properties = {
 	opacity: 1.00,
 	manifest: [
 		{src:"images/0019_atlas_1.png", id:"0019_atlas_1"},
-		{src:"images/0019_atlas_2.png", id:"0019_atlas_2"},
-		{src:"images/0019_atlas_3.png", id:"0019_atlas_3"},
 		{src:"sounds/MicrosoftWindowsXPErrorSoundEffectHD.mp3", id:"MicrosoftWindowsXPErrorSoundEffectHD"},
 		{src:"sounds/MouseClickSoundEffectHD.mp3", id:"MouseClickSoundEffectHD"}
 	],
