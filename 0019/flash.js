@@ -917,7 +917,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,55,110,160];
+	this.actionFrames = [0,55,110,160,326];
 	this.streamSoundSymbolsList[55] = [{id:"MouseClickSoundEffectHD",startFrame:55,endFrame:327,loop:1,offset:0}];
 	this.streamSoundSymbolsList[110] = [{id:"MouseClickSoundEffectHD",startFrame:110,endFrame:160,loop:1,offset:0}];
 	this.streamSoundSymbolsList[160] = [{id:"MicrosoftWindowsXPErrorSoundEffectHD",startFrame:160,endFrame:327,loop:1,offset:0}];
@@ -982,9 +982,12 @@ if (reversed == null) { reversed = false; }
 		var soundInstance = playSound("MicrosoftWindowsXPErrorSoundEffectHD",0);
 		this.InsertIntoSoundStreamData(soundInstance,160,327,1);
 	}
+	this.frame_326 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(55).call(this.frame_55).wait(55).call(this.frame_110).wait(50).call(this.frame_160).wait(167));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(55).call(this.frame_55).wait(55).call(this.frame_110).wait(50).call(this.frame_160).wait(166).call(this.frame_326).wait(1));
 
 	// restart
 	this.instance = new lib.FadeRestart("synched",0,false);
